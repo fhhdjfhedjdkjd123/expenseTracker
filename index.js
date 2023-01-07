@@ -52,8 +52,7 @@ function editUser(amount, description, category,email){
     document.getElementById("amount").value=amount;
     document.getElementById("description").value=description;
     document.getElementById("category").value=category;
-
-        document.getElementById("email").value=email;
+    document.getElementById("email").value=email;
     deleteUser(email);
 
 }
