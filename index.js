@@ -30,8 +30,8 @@ function userDetailsOnScreen(obj){
 
     let listItemsEle = document.getElementById("listItems");
     let childHtml = `<li id=${obj.email}> ${obj.amount} - ${obj.description} - ${obj.category} 
-                      <button onclick=deleteUser('${obj.email}') class="btn btn-danger">Delete</button>
-                      <button onclick=editUser('${obj.amount}','${obj.description}','${obj.category}','${obj.email}',) class="btn btn-info">Edit</button>
+                      <button onclick=deleteUser('${obj.email}') class="btn btn-outline-danger">Delete</button>
+                      <button onclick=editUser('${obj.amount}','${obj.description}','${obj.category}','${obj.email}',) class="btn btn-outline-info">Edit</button>
                       </li>`;
     listItemsEle.innerHTML = listItemsEle.innerHTML + childHtml;
 
