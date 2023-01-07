@@ -1,0 +1,14 @@
+.container{
+    text-align:center;
+}
+.heading{
+    color:palevioletred;
+}
+input{
+    margin:5px;
+    border-radius: 3px;
+    border:1px solid black;
+}
+label{
+    color:black;
+}
